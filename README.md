@@ -4,7 +4,7 @@
 
 Gitlysis is an AI-powered developer intelligence tool that analyzes any public GitHub profile and generates a personality report, language breakdown, roast, and interactive chat — all powered by Groq AI and the GitHub API.
 
-**[Live Demo](#)**
+**[Live Demo](gitlysisbypriyansh.netlify.app)**
 
 ![Gitlysis Screenshot]
 
@@ -48,7 +48,7 @@ Chat with an AI that has full context of the developer's GitHub data. Ask anythi
 | Routing | React Router v6 |
 | AI | Groq API (Llama 3.3 70B) |
 | Data | GitHub REST API v3 |
-| Deployment | Vercel |
+| Deployment | Netlify |
 
 ---
 
@@ -92,7 +92,7 @@ VITE_GROQ_API_KEY=your_groq_api_key_here
 npm run dev
 ```
 
-Open [http://127.0.0.1:5173](http://127.0.0.1:5173) in your browser.
+Open [gitlysisbypriyansh.netlify.app](gitlysisbypriyansh.netlify.app) in your browser.
 
 ---
 
@@ -135,27 +135,6 @@ Uses `llama-3.3-70b-versatile` model with custom prompts that inject real GitHub
 - `.env` is included in `.gitignore`
 - GitHub API is used in read-only mode — no write permissions required
 - Only public GitHub profiles are accessible
-
----
-
-## 🚢 Deployment
-
-This project is deployed on Vercel. To deploy your own:
-
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-vercel
-
-# Add environment variables in Vercel dashboard:
-# VITE_GITHUB_TOKEN and VITE_GROQ_API_KEY
-```
-
-Or click below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/Gitlysis)
 
 ---
 
