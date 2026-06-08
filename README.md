@@ -6,8 +6,6 @@ Gitlysis is an AI-powered developer intelligence tool that analyzes any public G
 
 **[Live Demo](https://gitlysisbypriyansh.netlify.app)**
 
-![Gitlysis Screenshot]
-
 ## 🖥️ Screenshots
 
 | Landing Page | Landing Page |
@@ -93,7 +91,7 @@ VITE_GROQ_API_KEY=your_groq_api_key_here
 npm run dev
 ```
 
-Open [gitlysisbypriyansh.netlify.app](gitlysisbypriyansh.netlify.app) in your browser.
+Open [127.0.0.1:5173](127.0.0.1:5173) in your browser.
 
 ---
 
