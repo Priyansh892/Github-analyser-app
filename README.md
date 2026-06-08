@@ -2,9 +2,9 @@
 
 > **Decode any developer's GitHub DNA with AI**
 
-Gitlysis is an AI-powered developer intelligence tool that analyzes any public GitHub profile and generates a personality report, language breakdown, roast, and interactive chat — all powered by Groq AI and the GitHub API.
+Gitlysis is an AI-powered developer intelligence tool that analyzes any public GitHub profile and generates a personality report, language breakdown, roast, and interactive chat - all powered by Groq AI and the GitHub API.
 
-**[Live Demo](gitlysisbypriyansh.netlify.app)**
+**[Live Demo](https://gitlysisbypriyansh.netlify.app)**
 
 ![Gitlysis Screenshot]
 
@@ -25,7 +25,7 @@ Gitlysis is an AI-powered developer intelligence tool that analyzes any public G
 AI reads your repositories, languages, stars, and activity to generate a personalized developer personality report. Discover your Developer Archetype, coding strengths, blind spots, and overall vibe.
 
 ### 🗺️ Language Map
-Visual breakdown of every programming language across your repositories — weighted by actual lines of code, not just repo count. See what you *really* code in.
+Visual breakdown of every programming language across your repositories - weighted by actual lines of code, not just repo count. See what you *really* code in.
 
 ### 😂 Roast My GitHub
 Submit your profile for a brutally honest (but loving) AI roast. Painfully accurate, weirdly flattering, and extremely shareable.
@@ -121,9 +121,9 @@ Gitlysis/
 ## 🔌 API Usage
 
 ### GitHub API
-- `GET /users/:username` — Fetch user profile
-- `GET /users/:username/repos` — Fetch all public repositories
-- `GET /repos/:username/:repo/languages` — Fetch language breakdown per repo
+- `GET /users/:username` - Fetch user profile
+- `GET /users/:username/repos` - Fetch all public repositories
+- `GET /repos/:username/:repo/languages` - Fetch language breakdown per repo
 
 ### Groq API
 Uses `llama-3.3-70b-versatile` model with custom prompts that inject real GitHub data as context for accurate, personalized responses.
@@ -134,7 +134,7 @@ Uses `llama-3.3-70b-versatile` model with custom prompts that inject real GitHub
 
 - API keys are stored in `.env` and never committed to Git
 - `.env` is included in `.gitignore`
-- GitHub API is used in read-only mode — no write permissions required
+- GitHub API is used in read-only mode - no write permissions required
 - Only public GitHub profiles are accessible
 
 ---
