@@ -12,11 +12,12 @@ Gitlysis is an AI-powered developer intelligence tool that analyzes any public G
 
 | Landing Page | Landing Page |
 |---|---|
-| ![Landing 1](./src/assets/Landing%20Page%20screenshot1.jpg) | ![Landing 2](./src/assets/Landing%20Page%20screenshot2.jpg) |
+| ![Landing 1](./Gitlysis/src/assets/Landing%20Page%20screenshot1.jpg) | ![Landing 2](./Gitlysis/src/assets/Landing%20Page%20screenshot2.jpg) |
 
 | Dashboard | Dashboard |
 |---|---|
-| ![Dashboard 1](./src/assets/Dashboard%20Page%20screenshot3.jpg) | ![Dashboard 2](./src/assets/Dashboard%20Page%20screenshot4.jpg) |
+| ![Dashboard 1](./Gitlysis/src/assets/Dashboard%20Page%20screenshot3.jpg) | ![Dashboard 2](./Gitlysis/src/assets/Dashboard%20Page%20screenshot4.jpg) |
+
 
 ## ✨ Features
 
