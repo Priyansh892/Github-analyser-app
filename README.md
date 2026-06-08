@@ -62,7 +62,7 @@ Chat with an AI that has full context of the developer's GitHub data. Ask anythi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Gitlysis.git
+git clone https://github.com/Priyansh892/Gitlysis.git
 cd Gitlysis
 
 # Install dependencies
